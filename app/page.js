@@ -46,12 +46,6 @@ export default function Home() {
       }
     };
     checkTokenAndOpenModal();
-
-    const intervalId = setInterval(checkTokenAndOpenModal, 10000);
-
-    return () => {
-      clearInterval(intervalId);
-    };
   }, []);
   return (
     <main>
