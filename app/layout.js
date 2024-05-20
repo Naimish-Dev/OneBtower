@@ -8,8 +8,8 @@ import { Footer } from "./components/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Palace residence Dubai Hills estate",
-  description: "Palace Residences Dhe Payment Plan",
+  title: "One B Tower",
+  description: "One B Tower",
 };
 
 export default function RootLayout({ children }) {
